@@ -7,8 +7,8 @@ function App() {
   const [todos, setTodos] = useState([]); // Initialize with empty array
   const [isLoading, setIsLoading] = useState(true); // Track loading state
 
-  const apiUrl = "https://todo-app-react-backend-6z0f.onrender.com"                    
-
+  const apiUrl = "https://todo-app-react-backend-87mu.onrender.com"                    
+                      
   // Fetch todos only on initial mount
   useEffect(() => {
     async function fetchData() {
